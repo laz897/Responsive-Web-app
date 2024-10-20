@@ -4,9 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Supermercado+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lancelot&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
 
 
-p{
+
+p {
     font-family: "Supermercado One", sans-serif;
     text-align: center;
 }
@@ -15,7 +18,7 @@ p{
     padding: 10px 0;
 }
 
-.container-fluid{
+.container-fluid {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,50 +52,271 @@ h1 {
     text-align: auto;
 }
 
-h2{
+h2 {
     font-family: "Cormorant", serif;
     margin-left: 50%;
-    color:black;
+    color: black;
     text-align: auto;
     margin-left: auto;
+    font-size: 150%;
 }
-h3{
+
+h3 {
     font-family: "Cormorant Infant", serif;
-    margin-top: auto; 
+    margin-top: auto;
 }
-h4{
+
+h4 {
     font-family: "Cormorant Infant", serif;
     margin-bottom: 0%;
 }
 
-.row > div {
-    margin-bottom: 20px; /* Adjust as needed */
+.row>div {
+    margin-top: 10%;
+    margin-bottom: -5%;
+    /* Adjust as needed */
 }
 
 .custom-img {
-    width: 100%; /* Set width to 100% for responsiveness */
-    height: 500px; /* Set a fixed height */
-    object-fit: cover; /* Ensures the image fills the area without distortion */
-    
+    width: 100%;
+    /* Set width to 100% for responsiveness */
+    height: 400px;
+    /* Set a fixed height */
+    object-fit: cover;
+    /* Ensures the image fills the area without distortion */
+
 }
 
 
 .about-box {
-    background-color: #f8f9fa; /* Light background */
-    border: 1px solid #dee2e6; /* Border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 15px; /* Padding inside the box */
-    margin-top: 10px; /* Spacing from the button */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #f8f9fa;
+    /* Light background */
+    border: 1px solid #dee2e6;
+    /* Border */
+    border-radius: 5px;
+    /* Rounded corners */
+    padding: 15px;
+    /* Padding inside the box */
+    margin-top: 10px;
+    /* Spacing from the button */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
 }
 
 footer {
-    position: relative; /* Ensure footer is positioned normally */
+    position: relative;
+    /* Ensure footer is positioned normally */
     width: 100%;
+
 }
 
 .footer-content {
     padding: 20px;
-    text-align: left; /* Align text to the left */
+    text-align: left;
+    /* Align text to the left */
 }
 
+/* Style the video container */
+.js-item-video {
+    border: 3px solid #333;
+    /* Add a solid border around the video */
+    border-radius: 10px;
+    /* Add rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* Apply a shadow around the video */
+    margin: 20px auto;
+    /* Center the video with margin */
+    display: block;
+    /* Ensure the video takes up its own line */
+    max-width: 100%;
+    /* Make the video responsive, scaling within its container */
+    height: auto;
+    /* Keep the aspect ratio intact */
+}
+
+/* Control the video size */
+.js-item-video {
+    width: 580px;
+    /* Define specific width */
+    height: auto;
+    /* Auto height based on the video's aspect ratio */
+}
+
+/* Hover effect on video */
+.js-item-video:hover {
+    transform: scale(1.05);
+    /* Slightly enlarge the video on hover */
+    transition: transform 0.3s ease;
+    /* Smooth transition */
+}
+
+/* Custom styling for controls on the video */
+.js-item-video::-webkit-media-controls-panel {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background for the controls */
+}
+
+/* General styling for the container */
+.text-with-icons__block {
+    display: flex;
+    /* Align image and text side by side */
+    align-items: center;
+    /* Vertically center items */
+    gap: 0px;
+    /* Space between image and text */
+    margin-bottom: 0px;
+    /* Add some spacing below the block */
+}
+
+/* Styling for the image */
+.text-with-icons__icon img {
+    width: 50%;
+    /* Make the image responsive */
+    max-width: 100px;
+    /* Set a max width for the image */
+    height: auto;
+    /* Maintain the aspect ratio */
+}
+
+/* Styling for the text content */
+.text-with-icons__block-content {
+    max-width: 100px;
+    /* Limit the width of the text */
+}
+
+/* Heading styling */
+.text-with-icons__block-content h6 {
+    font-size: 24px;
+    /* Larger font for the heading */
+    margin-bottom: 10px;
+    /* Space below the heading */
+    color: black;
+    /* Darker color for heading */
+}
+
+/* Paragraph styling */
+.text-with-icons__block-content p {
+    font-size: 16px;
+    /* Standard font size for the text */
+    line-height: 1.6;
+    /* Improve readability */
+    color: black;
+    /* Slightly lighter color for text */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .text-with-icons__block {
+        flex-direction: column;
+        /* Stack image and text vertically */
+        text-align: center;
+        /* Center align the content */
+    }
+
+    .text-with-icons__icon img {
+        max-width: 100%;
+        /* Ensure the image doesn't overflow */
+    }
+
+    .text-with-icons__block-content {
+        max-width: 100%;
+        /* Allow text to take full width */
+    }
+}
+
+/* Container to hold all blocks */
+.text-with-icons__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    /* Adjust the space between items */
+    padding: 20px;
+    justify-content: space-between;
+    /* Ensure even spacing */
+    margin-bottom: -1%;
+}
+
+/* Styling for individual blocks */
+.text-with-icons__block {
+    display: flex;
+    align-items: center;
+    /* Align text and icon vertically */
+    max-width: 300px;
+    /* Set a max width for each block */
+    gap: 0px;
+    /* Space between the icon and text */
+    flex: 1 1 100%;
+    /* Adjust for responsiveness */
+}
+
+/* Styling for the icon */
+.text-with-icons__icon img {
+    width: 80px;
+    /* Set width for icons */
+    height: 80px;
+    /* Set height for icons */
+}
+
+/* Styling for the text content */
+.text-with-icons__content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1c1616;
+
+}
+
+.text-with-icons__content p {
+    font-family: "Cormorant", serif;
+    font-size: 14px;
+    color: #1a1717;
+    line-height: 1.6;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .text-with-icons__block {
+        flex-direction: column;
+        /* Stack icon and text vertically on smaller screens */
+        text-align: center;
+    }
+
+    .text-with-icons__icon img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.button-container {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+button {
+    font-size: 12px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .button-container {
+        bottom: 20px;
+    }
+
+    button {
+        font-size: 10px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    button {
+        font-size: 8px;
+        padding: 6px 12px;
+    }
+}

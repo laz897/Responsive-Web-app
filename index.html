@@ -1,22 +1,27 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cozy Corner</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="p-3 text-bg-beige  sticky-top">
-        <nav class="navbar navbar-expand-lg" style="background-color: #e58a49;">
+        <nav class="navbar navbar-expand-lg" style="background-color: #a54500c0;">
             <a class="navbar-brand" href="#" style="color: beige;">
-                <img src="Logo For Cozy.png" width="50" height="50" alt="Cozy Corner Logo"> <p>Cozy Corner</p>
+                <img src="Cozy Logo.png" width="50" height="50" alt="Cozy Corner Logo" style="margin-left: 5%;">
+                <p>Cozy Corner</p>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -28,58 +33,79 @@
                         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#featuresModal">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Us</a>
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">Contact
+                            Us</a>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
-                <button type="button" class="btn" style="background-color: rgba(254, 184, 123, 0.785); color: #ffffff;" data-bs-toggle="modal" data-bs-target="#signupModal">Sign-up</button>
+                <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal"
+                    data-bs-target="#loginModal">Login</button>
+
+                <!-- Sign-Up Button in Navbar -->
+                <button type="button" class="btn"
+                    style="background-color: rgba(221, 115, 22, 0.785); color: #ffffff; margin-right: 1%;"
+                    data-bs-toggle="modal" data-bs-target="#signUpModal">Sign-up</button>
             </div>
         </nav>
+
     </header>
+    <h1 style=" font-family: 'Charm', cursive; color: rgb(40, 37, 37); font-size: 25px; text-align: center;">Welcome to
+        Cozy Corner Where Comfort meets Style in Every Piece of Furniture.</h1>
 
-   
+    <video class="js-item-video js-lcp" width="580" height="326.25" controls preload="none" tabindex="0"
+        poster="https://thumbs.dreamstime.com/b/animated-single-line-drawing-chair-desk-modern-computer-stack-books-potted-plant-working-home-concept-art-278333948.jpg?w=576"
+        data-dt-id="item-video" data-dt-root="" data-dt-on-click="" data-dt-js="30" autoplay muted loop>
+        <source type="video/webm" src="https://thumbs.dreamstime.com/videothumb_large27833/278333948.webm">
+        <source type="video/mp4" src="https://thumbs.dreamstime.com/videothumb_large27833/278333948.mp4">
+    </video>
 
-    <div class="container col-xxl-8 px-4 py-5">   
+
+    <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6 text-center">
                 <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="Furniture.jpg" class="d-block mx-auto custom-img" alt="Cozy Corner" loading="lazy"> 
+                            <img src="Furniture.jpg" class="d-block mx-auto custom-img" alt="Cozy Corner"
+                                loading="lazy">
                         </div>
                         <div class="carousel-item">
-                            <img src="furniture 2.jpg" class="d-block mx-auto custom-img" alt="Another View" loading="lazy"> 
+                            <img src="furniture 2.jpg" class="d-block mx-auto custom-img" alt="Another View"
+                                loading="lazy">
                         </div>
                         <div class="carousel-item">
-                            <img src="furniture 4.jpg" class="d-block mx-auto custom-img" alt="Yet Another View" loading="lazy"> 
+                            <img src="furniture 4.jpg" class="d-block mx-auto custom-img" alt="Yet Another View"
+                                loading="lazy">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
             </div>
-            
+
             <div class="col-lg-6">
                 <h1>Looking for Comfy Homes?</h1>
-                <h2>"From cozy sofas to elegant dining sets, our collection is designed to inspire your home’s transformation."</h2>
+                <h2>"From cozy sofas to elegant dining sets, our collection is designed to inspire your home’s
+                    transformation.Our commitment to craftsmanship and customer satisfaction ensures you'll
+                    find the perfect pieces to create a space you'll love."</h2>
             </div>
         </div>
     </div>
-<!-- Buttons section -->
-     <div style="position: absolute; bottom: 50px; display: flex; justify-content: center; width: 100%;">
-    <button onclick="location.href='landing-page1.html'" style="font-size: 12px; padding: 10px 20px; margin-right: 10px; cursor: pointer;">Explore Collection</button>
-    <button onclick="location.href='landing-page2.html'" style="font-size: 12px; padding: 10px 20px; margin-left: 10px; cursor: pointer;">Shop Now</button>
+
+    <div class="button-container">
+        <button onclick="location.href='landing-page1.html'">Explore Collection</button>
     </div>
 
 
-    
-    
+
+
     <!-- About Modal -->
     <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -88,17 +114,19 @@
                     <h5 class="modal-title" id="aboutModalLabel">About Us</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    Cozy Corner is dedicated to providing the finest furniture for your home, ensuring comfort and style.
+                <div class="modal-body" style="font-family: 'Cormorant', serif;">
+                    Our journey began with a passion for transforming living spaces
+                    into cozy retreats where families or friends can gather and create lasting memories.
+                    Cozy Corner is dedicated to providing the finest furniture for your home, ensuring comfort and
+                    style.
                     At Cozy Corner, we believe that your home is a reflection of who you are.
-                    Dedicated to providing the finest furniture, we carefully curate each piece to ensure it 
-                    embodies both comfort and style. Our journey began with a passion for transforming living spaces 
-                    into cozy retreats where families can gather and create lasting memories.
+                    Dedicated to providing the finest furniture, we carefully curate each piece to ensure it
+                    embodies both comfort and style.
                 </div>
             </div>
         </div>
     </div>
-    
+
 
     <!-- Features Modal -->
     <div class="modal fade" id="featuresModal" tabindex="-1" aria-labelledby="featuresModalLabel" aria-hidden="true">
@@ -108,8 +136,8 @@
                     <h5 class="modal-title" id="featuresModalLabel">Features</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    Our features include: 
+                <div class="modal-body" style="font-family: 'Cormorant', serif;">
+                    Our features include:
                     <li>High-quality material</li>
                     <li>Customizable designs</li>
                     <li>Exceptional customer service.</li>
@@ -126,229 +154,235 @@
                     <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body" style="font-family: 'Cormorant', serif;">
                     You can reach us via:
-                   <li>Email: shylliefae897@gmail.com</li>
-                   <li>Or call us at 09357593202.</li>  
+                    <li>Email: shylliefae897@gmail.com</li>
+                    <li>Or call us at 09357593202.</li>
                 </div>
             </div>
         </div>
     </div>
 
-  <!-- Login Modal -->  
-<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="loginModalLabel">Login</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form id="loginForm">
-                    <div class="mb-3">
-                        <label for="loginEmail" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="loginEmail" required>
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="loginEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="loginPassword" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember Me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                    <div class="mt-3 text-center">
+                        <a href="#" id="forgotPasswordLink" data-bs-toggle="modal"
+                            data-bs-target="#forgotPasswordModal">Forgot Password?</a>
                     </div>
-                    <div class="mb-3">
-                        <label for="loginPassword" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="loginPassword" required>
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="rememberMe">
-                        <label class="form-check-label" for="rememberMe">Remember Me</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Login</button>
-                </form>
-                <div class="mt-3 text-center">
-                    <a href="#" id="forgotPasswordLink" data-bs-toggle="modal" data-bs-target="#forgotPasswordModal">Forgot Password?</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- Forgot Password Modal -->  
-<div class="modal fade" id="forgotPasswordModal" tabindex="-1" aria-labelledby="forgotPasswordModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="forgotPasswordModalLabel">Reset Password</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form id="forgotPasswordForm" onsubmit="handlePasswordReset(event)">
-                    <div class="mb-3">
-                        <label for="resetEmail" class="form-label">Enter your email address</label>
-                        <input type="email" class="form-control" id="resetEmail" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="newPassword" class="form-label">New Password</label>
-                        <input type="password" class="form-control" id="newPassword" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="confirmPassword" class="form-label">Confirm New Password</label>
-                        <input type="password" class="form-control" id="confirmPassword" required>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Reset Password</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Confirmation Modal -->  
-<div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="confirmationModalLabel">Password Reset Successful</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Your password has been reset successfully!</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+    <!-- Forgot Password Modal -->
+    <div class="modal fade" id="forgotPasswordModal" tabindex="-1" aria-labelledby="forgotPasswordModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="forgotPasswordModalLabel">Reset Password</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="forgotPasswordForm" onsubmit="handlePasswordReset(event)">
+                        <div class="mb-3">
+                            <label for="resetEmail" class="form-label">Enter your email address</label>
+                            <input type="email" class="form-control" id="resetEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="newPassword" class="form-label">New Password</label>
+                            <input type="password" class="form-control" id="newPassword" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirmPassword" class="form-label">Confirm New Password</label>
+                            <input type="password" class="form-control" id="confirmPassword" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Reset Password</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<script>
-    function handlePasswordReset(event) {
-        event.preventDefault();
-        
-        // Perform your password reset logic here
-        // For example, validate and send the new password to the server
-
-        // Show confirmation modal
-        const confirmationModal = new bootstrap.Modal(document.getElementById('confirmationModal'));
-        confirmationModal.show();
-        
-        // Reset the form
-        document.getElementById('forgotPasswordForm').reset();
-    }
-</script>
-
-<!-- Sign Up Modal -->  
-<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true"> 
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form id="signupForm" onsubmit="handleSignUp(event)">
-                    <div class="mb-3">
-                        <label for="signupEmail" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="signupEmail" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="signupPassword" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="signupPassword" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="confirmPassword" class="form-label">Confirm Password</label>
-                        <input type="password" class="form-control" id="confirmPassword" required>
-                    </div>
-                    <div class="form-check mb-3">
-                        <input type="checkbox" class="form-check-input" id="termsCheck" required>
-                        <label class="form-check-label" for="termsCheck">
-                            I agree to the <a href="path/to/terms-and-conditions" target="_blank">terms and conditions</a>
-                        </label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Sign Up</button>
-                </form>
+    <!-- Confirmation Modal -->
+    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmationModalLabel">Password Reset Successful</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Your password has been reset successfully!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-<script>
-    function handleSignUp(event) {
-        event.preventDefault();
-
-        // Get the values and trim whitespace
-        const password = document.getElementById('signupPassword').value.trim();
-        const confirmPassword = document.getElementById('confirmPassword').value.trim();
-
-        // Debugging: log the passwords to console
-        console.log("Password:", password);
-        console.log("Confirm Password:", confirmPassword);
-
-        // Check if passwords match
-        if (password !== confirmPassword) {
-            alert("Your passwords do not match. Please try again.");
-            return; // Exit the function if passwords do not match
-        }
-
-        // If passwords match, perform your sign-up logic here
-        alert("Sign-up successful!");
-
-        // Reset the form
-        document.getElementById('signupForm').reset();
-    }
-</script>
-
-<script>
-    function handleSignUp(event) {
-        event.preventDefault();
-
-        // Get the values
-        const password = document.getElementById('signupPassword').value.trim();
-        const confirmPassword = document.getElementById('confirmPassword').value.trim();
-
-        // Debugging: log the passwords to console
-        console.log("Password:", password);
-        console.log("Confirm Password:", confirmPassword);
-
-        // Check if passwords match
-        if (password !== confirmPassword) {
-            alert("Your passwords do not match. Please try again.");
-            return; // Exit the function if passwords do not match
-        }
-
-        // If passwords match, perform your sign-up logic here
-        alert("Sign-up successful!");
-
-        // Reset the form
-        document.getElementById('signupForm').reset();
-    }
-</script>
-
-
-
-
-
-
 
     <script>
+        function handlePasswordReset(event) {
+            event.preventDefault();
+            // Show confirmation modal
+            const confirmationModal = new bootstrap.Modal(document.getElementById('confirmationModal'));
+            confirmationModal.show();
+
+            // Reset the form
+            document.getElementById('forgotPasswordForm').reset();
+        }
+    </script>
+
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signUpModalLabel">Sign Up</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="signUpForm" onsubmit="handleSignUp(event)">
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="signUpEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="signUpEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="signUpPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="signUpPassword" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="signUpConfirmPassword" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="signUpConfirmPassword" required>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input type="checkbox" class="form-check-input" id="termsCheck" required>
+                            <label class="form-check-label" for="termsCheck">I agree to the <a href="#">Terms &
+                                    Conditions</a></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block mt-3">Sign Up</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <p>or sign up with:</p>
+                        <button type="button" class="btn btn-outline-danger btn-block mb-2" style="margin-top: -9%;">
+                            <i class="uil uil-google"></i> Sign up with Google
+                        </button>
+                        <button type="button" class="btn btn-outline-primary btn-block" style="margin-top: -10%;">
+                            <i class="uil uil-facebook-f"></i> Sign up with Facebook
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for Sign Up
+        document.getElementById('signUpForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            alert(`Sign-up attempted with Email: ${document.getElementById('signUpEmail').value}`);
+            bootstrap.Modal.getInstance(document.getElementById('signUpModal')).hide();
+        });
+        // JavaScript for Login
         document.getElementById('loginForm').addEventListener('submit', function (event) {
             event.preventDefault();
             alert(`Login attempted with Email: ${document.getElementById('loginEmail').value}`);
             bootstrap.Modal.getInstance(document.getElementById('loginModal')).hide();
         });
-    
-        document.getElementById('signupForm').addEventListener('submit', function (event) {
-            event.preventDefault();
-            alert(`Sign-up attempted with Email: ${document.getElementById('signupEmail').value}`);
-            bootstrap.Modal.getInstance(document.getElementById('signupModal')).hide();
-        });
     </script>
-    
+
     <div class="container mt-5">
-        <h2 class="text-center">What is Cozy Corner?</h2>
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/S-A0qLTxf-U" frameborder="0" allowfullscreen></iframe>
+        <h2 class="text-center" style="font-style: italic;">"Good design is about making something intelligible and
+            memorable.
+            Great design is about making something memorable and meaningful." — Dieter Rams</h2>
+        <iframe width="100%" height="310" src="https://www.youtube.com/embed/S-A0qLTxf-U" frameborder="0"
+            allowfullscreen></iframe>
+    </div>
+    <div class="text-with-icons__container">
+
+        <!-- Recliners Section -->
+        <div class="text-with-icons__block">
+            <div class="text-with-icons__icon">
+                <img src="Reclyners.jpg" alt="Recliners" width="100" height="100">
+            </div>
+            <div class="text-with-icons__content">
+                <h3>Recliners</h3>
+                <p>Only C-Corner recliners can offer the genuine comfort and quality that you deserve. Each is
+                    exclusively engineered with our patented reclining mechanisms and crafted using only the finest
+                    materials.</p>
+            </div>
+        </div>
+
+        <!-- Sofas Section -->
+        <div class="text-with-icons__block">
+            <div class="text-with-icons__icon">
+                <img src="Sofa.jpg" alt="Sofas" width="100" height="100">
+            </div>
+            <div class="text-with-icons__content">
+                <h3>Sofas</h3>
+                <p>Our collection includes a series of well-crafted leather sofas made with kiln-dried wood frames and
+                    upholstered with premium leather or high-quality PVC.</p>
+            </div>
+        </div>
+
+        <!-- Dining Set Section -->
+        <div class="text-with-icons__block">
+            <div class="text-with-icons__icon">
+                <img src="Dinig sET.jpg" alt="Dining Set" width="100" height="100">
+            </div>
+            <div class="text-with-icons__content">
+                <h3>Dining Set</h3>
+                <p>From cozy nooks to expansive dining areas, create the perfect dining experience with our collection
+                    of modern contemporary 2-seater, 4-seater, 6-seater, and 8-seater dining sets.</p>
+            </div>
+        </div>
+
+        <!-- Bed & Mattress Section -->
+        <div class="text-with-icons__block">
+            <div class="text-with-icons__icon">
+                <img src="Bed and Matt.jpg" alt="Bed & Mattress" width="100" height="100">
+            </div>
+            <div class="text-with-icons__content">
+                <h3>Bed & Mattress</h3>
+                <p>Well-designed upholstered and wooden bed frames ideal for single, double, queen, and king-size beds
+                    from Cozy Corners Fine Furniture.</p>
+            </div>
+        </div>
     </div>
 
-   
-</div>
 
 </body>
-<footer style="background-color: #e58a49f3; padding: 20px;">
-    <div style="text-align: center;">
-        <h4>Learn More</h4>
+<footer style="background-color: #9e521cb6; padding: 20px;">
+    <div style="text-align: center; margin-bottom: 1%; margin-top: -1%;">
+        <h4>Quick Links</h4>
         <a href="#" style="color: white;">Privacy Policy</a> |
         <a href="#" style="color: white;">Terms of Service</a> |
         <a href="#" style="color: white;">FAQs</a>
@@ -365,11 +399,9 @@
             <img src="instagram.webp" alt="Instagram" style="width: 24px;">
         </a>
     </div>
-    <div style="text-align: left; padding: 20px 0;"> 
+    <div style="text-align: left; padding: 20px 0; margin-bottom: -5%; font-style: oblique;">
         <div>&copy; All rights reserved 2024 Cozy Corner | Company</div>
     </div>
 </footer>
 
-
 </html>
-    
